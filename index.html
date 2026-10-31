@@ -1,227 +1,364 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Abdul Mueed is a Computer Science graduate and aspiring Data Analyst with experience in Excel, SQL, Power BI and data visualization.">
-
-    <meta name="keywords" content="Abdul Mueed, Data Analyst, Excel, SQL, Power BI, Data Analytics">
-
-    <meta name="author" content="Abdul Mueed">
-
+    <meta name="description" content="Abdul Mueed - Data Analyst Portfolio">
     <title>Abdul Mueed | Data Analyst</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">Abdul Mueed</h2>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Abdul <span>Mueed</span></a>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+           <a href="assets/Abdul_Mueed_Resume_.pdf" class="nav-resume" target="_blank">
+            Download CV <i class="fas fa-download"></i>
+            </a>
+            </a>
+        </div>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
+    <main>
 
-        <div class="hero-content">
-            <h3>Hello, I'm</h3>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="container hero-container">
 
-            <h1>Abdul Mueed</h1>
+                <div class="hero-content reveal">
+                    <p class="hero-label">
+                        <span class="status-dot"></span>
+                        DATA ANALYST
+                    </p>
 
-            <h2>Data Analyst</h2>
+                    <h1>
+                        Hi, I'm <br>
+                        Abdul <span>Mueed</span>
+                    </h1>
 
-            <p>
-                I am a Computer Science graduate passionate about
-                data analytics, business insights and data visualization.
-                I enjoy working with data to create meaningful reports
-                and dashboards.
-            </p>
+                    <h2>Data Analyst | Excel | SQL | Power BI | Python</h2>
 
-            <a href="#projects" class="btn">View My Projects</a>
+                    <p class="hero-description">
+                        I transform raw data into meaningful insights through
+                        data analysis, visualization, and interactive dashboards.
+                        Passionate about solving problems and supporting
+                        data-driven decisions.
+                    </p>
 
-            <a href="#contact" class="btn">Contact Me</a>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
 
-            <a href="assets/Abdul_Mueed_Resume_.pdf"
-               download
-               class="btn">
-                Download Resume
-            </a>
-        </div>
+                <div class="hero-image reveal">
+                    <div class="image-frame">
+                        <img src="assets/profile.jpeg" alt="Abdul Mueed">
+                    </div>
+                    <div class="image-decoration"></div>
+                </div>
 
-        <div class="hero-image">
-            <img src="assets/profile.jpeg"
-                 alt="Abdul Mueed - Data Analyst">
-        </div>
-
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-
-        <h2>About Me</h2>
-
-        <p>
-            I am Abdul Mueed, a Computer Science graduate
-            from the University of Sindh.
-
-            I have a background in Data Analytics and practical
-            internship experience at Ain GENX.
-
-            I am interested in analyzing data, creating reports,
-            building dashboards and discovering meaningful
-            business insights.
-
-            My goal is to grow as a professional Data Analyst
-            and develop advanced data engineering skills.
-        </p>
-
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-
-        <h2>My Experience</h2>
-
-        <div class="project-card">
-
-            <h3>Data Analytics Intern</h3>
-
-            <h4>Ain GENX</h4>
-
-            <p>
-                Worked with Excel data cleaning, Power BI dashboards,
-                reporting and data analysis.
-            </p>
-
-        </div>
-
-        <div class="project-card">
-
-            <h3>Education</h3>
-
-            <h4>BS Computer Science</h4>
-
-            <p>University of Sindh</p>
-
-        </div>
-
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-
-        <h2>My Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill">Microsoft Excel</div>
-
-            <div class="skill">SQL</div>
-
-            <div class="skill">Power BI</div>
-
-            <div class="skill">Python</div>
-
-            <div class="skill">Data Visualization</div>
-
-        </div>
-
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-
-        <h2>My Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-                <h3>SQL Data Analysis</h3>
-                <p>Project coming soon.</p>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Excel Dashboard</h3>
-                <p>Project coming soon.</p>
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>Turning data into meaningful insights.</p>
+                </div>
+
+                <div class="about-content reveal">
+                    <p>
+                        I am a Computer Science graduate from the University
+                        of Sindh with practical exposure to data analytics
+                        through an internship at Ain GENX.
+                    </p>
+
+                    <p>
+                        I work with Excel, SQL, Power BI, and Python to
+                        organize, clean, analyze, and visualize data. I am
+                        interested in transforming raw information into
+                        clear reports and useful insights that support
+                        better business decisions.
+                    </p>
+
+                    <p>
+                        I am continuously improving my analytical and
+                        technical skills while building practical projects
+                        to strengthen my professional journey as a Data Analyst.
+                    </p>
+                </div>
+
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Power BI Dashboard</h3>
-                <p>Project coming soon.</p>
+        <!-- EXPERIENCE & EDUCATION -->
+        <section class="background-section section" id="experience">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">MY BACKGROUND</p>
+                    <h2>Experience & <span>Education</span></h2>
+                    <p>My academic foundation and professional exposure.</p>
+                </div>
+
+                <div class="background-grid">
+
+                    <article class="info-card reveal">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+
+                        <p class="card-label">PROFESSIONAL EXPERIENCE</p>
+                        <h3>Data Analytics Intern</h3>
+                        <h4>Ain GENX</h4>
+
+                        <p>
+                            Gained practical exposure to data preparation,
+                            Excel-based data cleaning and reporting, and
+                            Power BI dashboard development.
+                        </p>
+
+                        <p>
+                            Worked with data to identify trends and present
+                            information in a clear and useful format.
+                        </p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+
+                        <p class="card-label">EDUCATION</p>
+                        <h3>BS Computer Science</h3>
+                        <h4>University of Sindh</h4>
+
+                        <p>
+                            Completed a Bachelor's degree in Computer Science,
+                            building a foundation in computing, programming,
+                            databases, and analytical problem-solving.
+                        </p>
+                    </article>
+
+                </div>
             </div>
+        </section>
 
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">WHAT I WORK WITH</p>
+                    <h2>Technical <span>Skills</span></h2>
+                    <p>Tools and capabilities I use in data analytics.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-file-excel"></i>
+                        <h3>Microsoft Excel</h3>
+                        <p>Data Cleaning, Formulas, Reporting</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-database"></i>
+                        <h3>SQL</h3>
+                        <p>Queries, Joins, Data Extraction</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-chart-column"></i>
+                        <h3>Power BI</h3>
+                        <p>Dashboards, Reports, Visualization</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Data Analysis and Data Handling</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-broom"></i>
+                        <h3>Data Cleaning</h3>
+                        <p>Preparing and organizing datasets</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data Analysis</h3>
+                        <p>Exploring data and identifying trends</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Data Visualization</h3>
+                        <p>Presenting insights visually</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Reporting</h3>
+                        <p>Clear reports and business insights</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects section" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">MY WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                    <p>Practical projects demonstrating my analytical skills.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <div class="project-icon">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">EXCEL</p>
+                            <h3>Excel Data Analysis</h3>
+                            <p>
+                                A practical project focused on organizing,
+                                cleaning, and analyzing data using Excel.
+                            </p>
+                            <span class="project-status">Project details coming soon</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">SQL</p>
+                            <h3>SQL Data Analysis</h3>
+                            <p>
+                                Exploring datasets using SQL queries,
+                                filtering, joins, and aggregations.
+                            </p>
+                            <span class="project-status">Project details coming soon</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">POWER BI</p>
+                            <h3>Power BI Dashboard</h3>
+                            <p>
+                                Developing interactive dashboards to
+                                communicate data insights effectively.
+                            </p>
+                            <span class="project-status">Project details coming soon</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">GET IN TOUCH</p>
+                    <h2>Let's <span>Connect</span></h2>
+                    <p>Feel free to reach out for professional opportunities and collaboration.</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <a href="mailto:amueed600@gmail.com" class="contact-card reveal">
+                        <div class="contact-icon email-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>amueed600@gmail.com</p>
+                    </a>
+
+                    <a href="https://github.com/Abdul-Mueed1"
+                       class="contact-card reveal"
+                       target="_blank" rel="noopener noreferrer">
+                        <div class="contact-icon github-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>View my repositories</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/abdul-mueed298/"
+                       class="contact-card reveal"
+                       target="_blank" rel="noopener noreferrer">
+                        <div class="contact-icon linkedin-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect professionally</p>
+                    </a>
+
+                    <a href="https://wa.me/923328299402"
+                       class="contact-card reveal"
+                       target="_blank" rel="noopener noreferrer">
+                        <div class="contact-icon whatsapp-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>Send me a message</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Abdul <span>Mueed</span></a>
+            <p>© 2026 Abdul Mueed. All Rights Reserved.</p>
+            <a href="#home" class="back-to-top">Back to Top ↑</a>
         </div>
-
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-
-        <h2>Contact Me</h2>
-
-        <p>
-            Let's connect and discuss data analytics opportunities.
-        </p>
-
-        <p>
-            Email:
-            <a href="mailto:amueed600@gmail.com">
-                amueed600@gmail.com
-            </a>
-        </p>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/Abdul-Mueed1"
-               target="_blank"
-               rel="noopener noreferrer">
-                Visit My GitHub
-            </a>
-        </p>
-
-        <p>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/abdul-mueed298/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Visit My LinkedIn
-            </a>
-        </p>
-
-        <p>
-            WhatsApp:
-            <a href="https://wa.me/923328299402"
-               target="_blank"
-               rel="noopener noreferrer">
-                Chat on WhatsApp
-            </a>
-        </p>
-
-    </section>
-
-    <!-- Footer -->
-    <footer>
-
-        <p>© 2026 Abdul Mueed. All Rights Reserved.</p>
-
     </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
-```
